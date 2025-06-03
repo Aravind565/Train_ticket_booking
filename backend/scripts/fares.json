@@ -1,0 +1,9946 @@
+[
+   {
+    "trainNumber": 11111,
+    "from": "ALU",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 11111,
+    "from": "ALU",
+    "to": "TPJ",
+    "classType": "CC",
+    "fareAmount": 140
+  },
+  { "trainNumber": 12635, "from": "MS", "to": "TBM", "classType": "2S", "fareAmount": 30 },
+  { "trainNumber": 12635, "from": "MS", "to": "TBM", "classType": "CC", "fareAmount": 110 },
+  { "trainNumber": 12635, "from": "MS", "to": "CGL", "classType": "2S", "fareAmount": 50 },
+  { "trainNumber": 12635, "from": "MS", "to": "CGL", "classType": "CC", "fareAmount": 180 },
+  { "trainNumber": 12635, "from": "MS", "to": "VM", "classType": "2S", "fareAmount": 90 },
+  { "trainNumber": 12635, "from": "MS", "to": "VM", "classType": "CC", "fareAmount": 300 },
+  { "trainNumber": 12635, "from": "MS", "to": "ALU", "classType": "2S", "fareAmount": 120 },
+  { "trainNumber": 12635, "from": "MS", "to": "ALU", "classType": "CC", "fareAmount": 430 },
+  { "trainNumber": 12635, "from": "MS", "to": "TPJ", "classType": "2S", "fareAmount": 150 },
+  { "trainNumber": 12635, "from": "MS", "to": "TPJ", "classType": "CC", "fareAmount": 535 },
+  { "trainNumber": 12635, "from": "MS", "to": "DG", "classType": "2S", "fareAmount": 170 },
+  { "trainNumber": 12635, "from": "MS", "to": "DG", "classType": "CC", "fareAmount": 610 },
+  { "trainNumber": 12635, "from": "MS", "to": "MDU", "classType": "2S", "fareAmount": 190 },
+  { "trainNumber": 12635, "from": "MS", "to": "MDU", "classType": "CC", "fareAmount": 685 },
+  { "trainNumber": 12635, "from": "TBM", "to": "CGL", "classType": "2S", "fareAmount": 25 },
+  { "trainNumber": 12635, "from": "TBM", "to": "CGL", "classType": "CC", "fareAmount": 80 },
+  { "trainNumber": 12635, "from": "TBM", "to": "VM", "classType": "2S", "fareAmount": 60 },
+  { "trainNumber": 12635, "from": "TBM", "to": "VM", "classType": "CC", "fareAmount": 220 },
+  { "trainNumber": 12635, "from": "TBM", "to": "ALU", "classType": "2S", "fareAmount": 90 },
+  { "trainNumber": 12635, "from": "TBM", "to": "ALU", "classType": "CC", "fareAmount": 340 },
+  { "trainNumber": 12635, "from": "TBM", "to": "TPJ", "classType": "2S", "fareAmount": 120 },
+  { "trainNumber": 12635, "from": "TBM", "to": "TPJ", "classType": "CC", "fareAmount": 450 },
+  { "trainNumber": 12635, "from": "TBM", "to": "DG", "classType": "2S", "fareAmount": 140 },
+  { "trainNumber": 12635, "from": "TBM", "to": "DG", "classType": "CC", "fareAmount": 530 },
+  { "trainNumber": 12635, "from": "TBM", "to": "MDU", "classType": "2S", "fareAmount": 160 },
+  { "trainNumber": 12635, "from": "TBM", "to": "MDU", "classType": "CC", "fareAmount": 610 },
+  { "trainNumber": 12635, "from": "CGL", "to": "VM", "classType": "2S", "fareAmount": 40 },
+  { "trainNumber": 12635, "from": "CGL", "to": "VM", "classType": "CC", "fareAmount": 130 },
+  { "trainNumber": 12635, "from": "CGL", "to": "ALU", "classType": "2S", "fareAmount": 70 },
+  { "trainNumber": 12635, "from": "CGL", "to": "ALU", "classType": "CC", "fareAmount": 220 },
+  { "trainNumber": 12635, "from": "CGL", "to": "TPJ", "classType": "2S", "fareAmount": 100 },
+  { "trainNumber": 12635, "from": "CGL", "to": "TPJ", "classType": "CC", "fareAmount": 330 },
+  { "trainNumber": 12635, "from": "CGL", "to": "DG", "classType": "2S", "fareAmount": 120 },
+  { "trainNumber": 12635, "from": "CGL", "to": "DG", "classType": "CC", "fareAmount": 410 },
+  { "trainNumber": 12635, "from": "CGL", "to": "MDU", "classType": "2S", "fareAmount": 140 },
+  { "trainNumber": 12635, "from": "CGL", "to": "MDU", "classType": "CC", "fareAmount": 490 },
+  { "trainNumber": 12635, "from": "VM", "to": "ALU", "classType": "2S", "fareAmount": 30 },
+  { "trainNumber": 12635, "from": "VM", "to": "ALU", "classType": "CC", "fareAmount": 90 },
+  { "trainNumber": 12635, "from": "VM", "to": "TPJ", "classType": "2S", "fareAmount": 60 },
+  { "trainNumber": 12635, "from": "VM", "to": "TPJ", "classType": "CC", "fareAmount": 160 },
+  { "trainNumber": 12635, "from": "VM", "to": "DG", "classType": "2S", "fareAmount": 80 },
+  { "trainNumber": 12635, "from": "VM", "to": "DG", "classType": "CC", "fareAmount": 220 },
+  { "trainNumber": 12635, "from": "VM", "to": "MDU", "classType": "2S", "fareAmount": 100 },
+  { "trainNumber": 12635, "from": "VM", "to": "MDU", "classType": "CC", "fareAmount": 280 },
+  { "trainNumber": 12635, "from": "ALU", "to": "TPJ", "classType": "2S", "fareAmount": 30 },
+  { "trainNumber": 12635, "from": "ALU", "to": "TPJ", "classType": "CC", "fareAmount": 90 },
+  { "trainNumber": 12635, "from": "ALU", "to": "DG", "classType": "2S", "fareAmount": 50 },
+  { "trainNumber": 12635, "from": "ALU", "to": "DG", "classType": "CC", "fareAmount": 140 },
+  { "trainNumber": 12635, "from": "ALU", "to": "MDU", "classType": "2S", "fareAmount": 70 },
+  { "trainNumber": 12635, "from": "ALU", "to": "MDU", "classType": "CC", "fareAmount": 200 },
+  { "trainNumber": 12635, "from": "TPJ", "to": "DG", "classType": "2S", "fareAmount": 20 },
+  { "trainNumber": 12635, "from": "TPJ", "to": "DG", "classType": "CC", "fareAmount": 60 },
+  { "trainNumber": 12635, "from": "TPJ", "to": "MDU", "classType": "2S", "fareAmount": 40 },
+  { "trainNumber": 12635, "from": "TPJ", "to": "MDU", "classType": "CC", "fareAmount": 120 },
+  { "trainNumber": 12635, "from": "DG", "to": "MDU", "classType": "2S", "fareAmount": 20 },
+  { "trainNumber": 12635, "from": "DG", "to": "MDU", "classType": "CC", "fareAmount": 60 },
+
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 90
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "2A",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 60
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "2A",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "2A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "2A",
+    "fareAmount": 780
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TJ",
+    "classType": "SL",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TJ",
+    "classType": "3A",
+    "fareAmount": 590
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "TJ",
+    "classType": "2A",
+    "fareAmount": 920
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "MQ",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "MQ",
+    "classType": "3A",
+    "fareAmount": 700
+  },
+  {
+    "trainNumber": 16616,
+    "from": "CBE",
+    "to": "MQ",
+    "classType": "2A",
+    "fareAmount": 1090
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 90
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "2A",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 80
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "2A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "2A",
+    "fareAmount": 640
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "TJ",
+    "classType": "SL",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "TJ",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "TJ",
+    "classType": "2A",
+    "fareAmount": 780
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "MQ",
+    "classType": "SL",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "MQ",
+    "classType": "3A",
+    "fareAmount": 610
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TUP",
+    "to": "MQ",
+    "classType": "2A",
+    "fareAmount": 950
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 50
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "2A",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "2A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "TJ",
+    "classType": "SL",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "TJ",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "TJ",
+    "classType": "2A",
+    "fareAmount": 640
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "MQ",
+    "classType": "SL",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "MQ",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16616,
+    "from": "ED",
+    "to": "MQ",
+    "classType": "2A",
+    "fareAmount": 810
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 60
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "2A",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "TJ",
+    "classType": "SL",
+    "fareAmount": 90
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "TJ",
+    "classType": "3A",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "TJ",
+    "classType": "2A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "MQ",
+    "classType": "SL",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "MQ",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16616,
+    "from": "KRR",
+    "to": "MQ",
+    "classType": "2A",
+    "fareAmount": 590
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TPJ",
+    "to": "TJ",
+    "classType": "SL",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TPJ",
+    "to": "TJ",
+    "classType": "3A",
+    "fareAmount": 90
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TPJ",
+    "to": "TJ",
+    "classType": "2A",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TPJ",
+    "to": "MQ",
+    "classType": "SL",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TPJ",
+    "to": "MQ",
+    "classType": "3A",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TPJ",
+    "to": "MQ",
+    "classType": "2A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TJ",
+    "to": "MQ",
+    "classType": "SL",
+    "fareAmount": 40
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TJ",
+    "to": "MQ",
+    "classType": "3A",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16616,
+    "from": "TJ",
+    "to": "MQ",
+    "classType": "2A",
+    "fareAmount": 170
+  },
+
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 10
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "CC",
+    "fareAmount": 35
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 20
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "CC",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "CC",
+    "fareAmount": 105
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 40
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "CC",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "TJ",
+    "classType": "2S",
+    "fareAmount": 50
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "TJ",
+    "classType": "CC",
+    "fareAmount": 175
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "MV",
+    "classType": "2S",
+    "fareAmount": 60
+  },
+  {
+    "trainNumber": 12084,
+    "from": "CBE",
+    "to": "MV",
+    "classType": "CC",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 10
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "CC",
+    "fareAmount": 35
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 20
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "CC",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "CC",
+    "fareAmount": 105
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "TJ",
+    "classType": "2S",
+    "fareAmount": 40
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "TJ",
+    "classType": "CC",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "MV",
+    "classType": "2S",
+    "fareAmount": 50
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TUP",
+    "to": "MV",
+    "classType": "CC",
+    "fareAmount": 175
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 10
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "CC",
+    "fareAmount": 35
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 20
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "CC",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "TJ",
+    "classType": "2S",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "TJ",
+    "classType": "CC",
+    "fareAmount": 105
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "MV",
+    "classType": "2S",
+    "fareAmount": 40
+  },
+  {
+    "trainNumber": 12084,
+    "from": "ED",
+    "to": "MV",
+    "classType": "CC",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 12084,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 10
+  },
+  {
+    "trainNumber": 12084,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "CC",
+    "fareAmount": 35
+  },
+  {
+    "trainNumber": 12084,
+    "from": "KRR",
+    "to": "TJ",
+    "classType": "2S",
+    "fareAmount": 20
+  },
+  {
+    "trainNumber": 12084,
+    "from": "KRR",
+    "to": "TJ",
+    "classType": "CC",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 12084,
+    "from": "KRR",
+    "to": "MV",
+    "classType": "2S",
+    "fareAmount": 30
+  },
+  {
+    "trainNumber": 12084,
+    "from": "KRR",
+    "to": "MV",
+    "classType": "CC",
+    "fareAmount": 105
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TPJ",
+    "to": "TJ",
+    "classType": "2S",
+    "fareAmount": 10
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TPJ",
+    "to": "TJ",
+    "classType": "CC",
+    "fareAmount": 35
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TPJ",
+    "to": "MV",
+    "classType": "2S",
+    "fareAmount": 20
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TPJ",
+    "to": "MV",
+    "classType": "CC",
+    "fareAmount": 70
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TJ",
+    "to": "MV",
+    "classType": "2S",
+    "fareAmount": 10
+  },
+  {
+    "trainNumber": 12084,
+    "from": "TJ",
+    "to": "MV",
+    "classType": "CC",
+    "fareAmount": 35
+  },
+
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MJS",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MJS",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MJS",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KMQ",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KMQ",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KMQ",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KGQ",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KGQ",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KGQ",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KQK",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KQK",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KQK",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KZE",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KZE",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KZE",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "NLE",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "NLE",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "NLE",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 540
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 550
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 560
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 570
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 580
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MAQ",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 590
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KMQ",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KMQ",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KMQ",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KGQ",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KGQ",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KGQ",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KQK",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KQK",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KQK",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KZE",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KZE",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KZE",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "NLE",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "NLE",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "NLE",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 540
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 550
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 560
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 570
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MJS",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 580
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KGQ",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KGQ",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KGQ",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KQK",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KQK",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KQK",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KZE",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KZE",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KZE",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "NLE",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "NLE",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "NLE",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 540
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 550
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 560
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMQ",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 570
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KQK",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KQK",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KQK",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KZE",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KZE",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KZE",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "NLE",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "NLE",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "NLE",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 540
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 550
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KGQ",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 560
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KZE",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KZE",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KZE",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "NLE",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "NLE",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "NLE",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 540
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KQK",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 550
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "NLE",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "NLE",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "NLE",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KZE",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 540
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CHV",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CHV",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CHV",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "NLE",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 530
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PAY",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PAY",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PAY",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CHV",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 520
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PAZ",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PAZ",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PAZ",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAY",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 510
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CLT",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CLT",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CLT",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PAZ",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 500
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "SRR",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "SRR",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "SRR",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CLT",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 490
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "PGT",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "PGT",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "PGT",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRR",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 480
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "CBE",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "CBE",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "CBE",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGT",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 470
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TUP",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CBE",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 460
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "ED",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TUP",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 450
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KMD",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KMD",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KMD",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ED",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 440
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "PGR",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "PGR",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "PGR",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KMD",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 430
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "KRR",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "KRR",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "KRR",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "PGR",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 420
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "MMH",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "MMH",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "MMH",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KRR",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 410
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "KLT",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "KLT",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "KLT",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 200
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 300
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MMH",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 400
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TP",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TP",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TP",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 190
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 290
+  },
+  {
+    "trainNumber": 16160,
+    "from": "KLT",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 390
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "TPJ",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "TPJ",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "TPJ",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 180
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 280
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TP",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 380
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "SRGM",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "SRGM",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "SRGM",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 170
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 270
+  },
+  {
+    "trainNumber": 16160,
+    "from": "TPJ",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 370
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "ALU",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "ALU",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "ALU",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 160
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 260
+  },
+  {
+    "trainNumber": 16160,
+    "from": "SRGM",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 360
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "VRI",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "VRI",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "VRI",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 150
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 250
+  },
+  {
+    "trainNumber": 16160,
+    "from": "ALU",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 350
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "VM",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "VM",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "VM",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 140
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 240
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VRI",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 340
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "MLMR",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "MLMR",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "MLMR",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 130
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 230
+  },
+  {
+    "trainNumber": 16160,
+    "from": "VM",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 330
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MLMR",
+    "to": "CGL",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MLMR",
+    "to": "CGL",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MLMR",
+    "to": "CGL",
+    "classType": "3A",
+    "fareAmount": 310
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MLMR",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 120
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MLMR",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 220
+  },
+  {
+    "trainNumber": 16160,
+    "from": "MLMR",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 320
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CGL",
+    "to": "TBM",
+    "classType": "2S",
+    "fareAmount": 110
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CGL",
+    "to": "TBM",
+    "classType": "SL",
+    "fareAmount": 210
+  },
+  {
+    "trainNumber": 16160,
+    "from": "CGL",
+    "to": "TBM",
+    "classType": "3A",
+    "fareAmount": 310
+  }
+  
+]
