@@ -41,6 +41,18 @@ connectDB();
 
 // Test Route to Check if Server is Running
 app.get('/', (req, res) => res.send('API is running'));
+console.log("Registering /debug-db route");
+
+app.get('/debug-db', async (req, res) => {
+  try {
+    const admin = new mongoose.mongo.Admin(mongoose.connection.db);
+    const info = await admin.serverStatus();
+    res.json({ host: info.host, version: info.version });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 
 
 

@@ -1,9 +1,18 @@
+require('dotenv').config({ path: '../.env' }); // relative path from scripts folder
+console.log("MONGO_URI:", process.env.MONGO_URI);
 const fs = require('fs');
 const mongoose = require('mongoose');
 const Fare = require('../models/Fare');
 const path = require('path');
 
-mongoose.connect('mongodb://localhost:27017/train_booking');
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => {
+    console.log('MongoDB connected');
+    main();
+  })
+  .catch(err => {
+    console.error('MongoDB connection error:', err);
+  });
 
 async function seedData() {
   try {

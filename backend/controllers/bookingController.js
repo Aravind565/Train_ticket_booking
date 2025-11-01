@@ -235,6 +235,7 @@ const saveBookingWithPNR = async (bookingData) => {
       Fare.findOne({ trainNumber: train.trainNumber, from, to, classType }),
     ]);
 
+
     if (!seatMap) throw new Error('Seat map not found for this date');
     if (!fareDoc) throw new Error('Fare information not found');
 
@@ -380,30 +381,83 @@ const getBookingById = async (req, res) => {
   }
 };
 
+// const getUserBookings = async (req, res) => {
+//   try {
+//     const bookings = await Booking.find({ userId: req.params.userId })
+//       .sort({ createdAt: -1 })
+//       .populate('trainId', 'trainNumber trainName');
+
+//     res.json(bookings.map(b => ({
+//       pnr: b.pnr,
+//       train: b.trainId,
+//       travelDate: b.travelDate,
+//       from: b.from,
+//       to: b.to,
+//       classType: b.classType,
+//       totalFare: b.totalFare,
+//       status: b.status,
+//       createdAt: b.createdAt,
+//     })));
+//   } catch (err) {
+//     res.status(500).json({
+//       message: 'Error fetching bookings',
+//       error: err.message,
+//     });
+//   }
+// };
+
+
+
+
+
+
 const getUserBookings = async (req, res) => {
   try {
-    const bookings = await Booking.find({ userId: req.params.userId })
-      .sort({ createdAt: -1 })
-      .populate('trainId', 'trainNumber trainName');
+    // Get user ID from JWT token
+    const userId = req.user?.id;
+    console.log('User ID from token:', userId);
 
-    res.json(bookings.map(b => ({
+    if (!userId) {
+      return res.status(400).json({ message: 'User ID not found in token' });
+    }
+
+    // Query bookings using the userId directly (Mongoose handles string -> ObjectId)
+    const bookings = await Booking.find({ userId })
+      .sort({ travelDate: -1, departureTime: -1 })
+      .populate('trainId', 'trainNumber trainName')
+      .lean();
+
+    console.log('Bookings fetched:', bookings);
+
+    // Format the response
+    const result = bookings.map(b => ({
+      bookingId: b._id,
       pnr: b.pnr,
-      train: b.trainId,
-      travelDate: b.travelDate,
+      trainNumber: b.trainId?.trainNumber || 'N/A',
+      trainName: b.trainId?.trainName || 'N/A',
       from: b.from,
       to: b.to,
+      travelDate: b.travelDate,
       classType: b.classType,
-      totalFare: b.totalFare,
       status: b.status,
-      createdAt: b.createdAt,
-    })));
+      totalFare: b.totalFare,
+        passengers: b.passengers,
+      createdAt: b.createdAt
+    }));
+
+    return res.json(result);
+
   } catch (err) {
-    res.status(500).json({
-      message: 'Error fetching bookings',
-      error: err.message,
-    });
+    console.error('Error fetching user bookings:', err);
+    return res.status(500).json({ message: 'Failed to fetch bookings', error: err.message });
   }
 };
+
+module.exports = {
+  getUserBookings,
+};
+
+
 
 const getBookingInfo = async (req, res) => {
   try {

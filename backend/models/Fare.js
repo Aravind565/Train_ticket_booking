@@ -13,9 +13,9 @@ const fareSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  classType: {
+ classType: {
     type: String,
-    enum: ['2S', 'CC', 'SL', '3A', '2A'],
+    enum: ['1A', '2A', '3A', '3E', 'SL', 'CC', 'EC', '2S', 'FC', 'HA'], // extended classes
     required: true
   },
   fareAmount: {

@@ -76,11 +76,11 @@
       minlength: [2, 'Station code too short'],
       maxlength: [5, 'Station code too long']
     },
-    classType: {
-      type: String,
-      required: [true, 'Travel class is required'],
-      enum: ['SL', '1A', '2A', '3A', 'CC', '2S']
-    },
+      classType: { 
+    type: String, 
+    required: true,
+    enum: ['1A','2A','3A','3E','SL','CC','EC','2S','FC','HA'] 
+  },
     travelDate: {
       type: Date,
       required: [true, 'Travel date is required'],

@@ -31,4 +31,40 @@
     }
   });
 
+  router.get('/profile', verifyToken, async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id).select('-password');
+    if (!user) return res.status(404).json({ message: 'User not found' });
+    res.json(user);
+  } catch (err) {
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+// Update logged-in user's profile
+// Update logged-in user's profile
+router.put('/profile', verifyToken, async (req, res) => {
+  try {
+    const userId = req.user.id;
+    const updates = req.body; // The fields sent from frontend
+
+    // Update the user in DB
+    const updatedUser = await User.findByIdAndUpdate(
+      userId,
+      { $set: updates },
+      { new: true, runValidators: true } // returns the updated document
+    ).select('-password');
+
+    if (!updatedUser) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    res.json(updatedUser); // Send updated user back
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+
+
   module.exports = router;

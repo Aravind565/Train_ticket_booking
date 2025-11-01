@@ -38,21 +38,36 @@ const PaymentGateway = () => {
 
       // Adjusted check:
       if (data.success || data.message === "Payment verified and booking saved") {
-       navigate('/booking-success', {
+//        navigate('/booking-success', {
+//   state: {
+//     bookingData: {
+//       ...bookingData,
+//       passengers: data.passengers,
+//       trainName: data.trainName,
+//       route: data.route,
+//       date: data.date,
+//       classType: data.classType,
+//       totalFare: data.totalFare,
+//       pnr: data.pnr 
+//     },
+//     paymentId: response.razorpay_payment_id,
+//     bookingId: data.bookingId
+//   }
+// });
+navigate('/booking-success', {
   state: {
     bookingData: {
-      ...bookingData,
-      passengers: data.passengers,
-      trainName: data.trainName,
-      route: data.route,
-      date: data.date,
-      classType: data.classType,
-      totalFare: data.totalFare
+      ...bookingData,  // ← Gets EVERYTHING including fare, PNR, times!
+      
+      // Override only what backend updates
+      passengers: data.passengers || bookingData.passengers,
+      pnr: data.pnr || bookingData.pnr,
     },
     paymentId: response.razorpay_payment_id,
-    bookingId: data.bookingId
+    bookingId: data.bookingId,
   }
 });
+
       } else {
         alert('Payment verification failed: ' + (data.error || 'Unknown error'));
       }
@@ -90,3 +105,4 @@ const PaymentGateway = () => {
 };
 
 export default PaymentGateway;
+

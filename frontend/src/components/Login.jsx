@@ -37,8 +37,8 @@ const Login = () => {
       sessionStorage.setItem("userToken", response.data.token);
 
       // Save user info as JSON string
-      sessionStorage.setItem("userInfo", JSON.stringify(response.data.user));
-  sessionStorage.setItem("user", JSON.stringify(response.data.user)); 
+// ✅ CHANGE THIS LINE:
+      sessionStorage.setItem("userData", JSON.stringify(response.data.user));
       setSuccess("Login successful! Redirecting...");
       setTimeout(() => navigate("/dashboard"), 1200);
     }

@@ -14,7 +14,10 @@ const router = express.Router();
 // ✅ Create a new booking (Authenticated)
 router.post('/', verifyToken, async (req, res) => {
   try {
-    const bookingData = { ...req.body, userId: req.user.id };
+   const bookingData = { 
+  ...req.body, 
+  userId: mongoose.Types.ObjectId(req.user.id)  // ✅ Convert string to ObjectId
+};
     const booking = await saveBookingWithPNR(bookingData);
     res.status(201).json(booking);
   } catch (error) {
@@ -29,9 +32,7 @@ router.post('/', verifyToken, async (req, res) => {
 // ✅ Get booking info for a specific train on a given date and class
 // Example: /api/booking/train/682f0c63bee299fd02254475/booking-info?from=CBE&to=TPJ&classType=SL&date=2025-05-27
 router.get('/train/:trainId/booking-info', getBookingInfo);
-
-// ✅ Get all bookings made by a specific user (Authenticated)
-router.get('/user/:userId', verifyToken, getUserBookings);
+router.get('/user', verifyToken, getUserBookings);
 
 // ✅ Get booking details by booking ID (Authenticated)
 router.get('/:id', verifyToken, getBookingById);

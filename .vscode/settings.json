@@ -1,6 +1,37 @@
 {
-    "git.ignoreLimitWarning": true,
-    "cSpell.words": [
-        "Avenir"
-    ]
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["Avenir"],
+
+  // --- Editor background (simulated transparency) ---
+  "workbench.colorCustomizations": {
+    "editor.background": "#1e1e1eAA",
+    "editorGutter.background": "#1e1e1eAA"
+  },
+
+  // --- Cursor glow and smooth animation ---
+  "apc.stylesheet": {
+    ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: #161616 !important"
+  },
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // --- Animations for UI ---
+  "animations.Enabled": true,
+  "animations.CursorAnimation": true,
+  "animations.Command-Palette": "None",
+  "animations.CursorAnimationOptions": { "TrailLength": 10 },
+  "animations.Tabs": "Slide",
+  "animations.Active": "Indent",
+
+  // --- Optional: APC electron settings (editor-level) ---
+  "apc.electron": {
+    "opacity": 0.2,
+    "transparent": true,
+    "backgroundColor": "#00000000",
+    "vibrancy": "ultra-dark"
+  },
+
+  // --- Terminal appearance (semi-transparent) ---
+  "terminal.integrated.background": "#1e1e1eAA",
+  "terminal.integrated.gpuAcceleration": "on"
 }
