@@ -34,8 +34,10 @@ const Login = () => {
     console.log("Sending request...");
 const response = await axios.post(
   "https://trainticket-backend.onrender.com/api/auth/login",
-  { email, password },
-    { headers: { "Content-Type": "application/json" } }
+  JSON.stringify({ email, password }),
+  {
+    headers: { "Content-Type": "application/json" },
+  }
 );
 
  console.log("Response received:", response.data);
