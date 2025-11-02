@@ -7,42 +7,45 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const authRoutes = require('./routes/auth'); // Authentication routes
-const userRoutes = require('./routes/user'); // User routes
+const authRoutes = require('./routes/auth');
+const userRoutes = require('./routes/user');
 const stationRoutes = require('./routes/stationRoutes');
 const trainRoutes = require('./routes/trainRoutes');
 const seatMapRoutes = require('./routes/seatMapRoutes');
 const bookingRoutes = require('./routes/bookingRoutes');
 const fareRoutes = require('./routes/fareRoutes');
-
 const paymentRoutes = require('./routes/paymentRoutes');
-
-
 
 const app = express();
 
-// Connect to MongoDB
+// ✅ Connect to MongoDB
 connectDB();
 
-  
-  app.use(cors()); // Allow cross-origin requests
-  app.use(express.json()); // To parse JSON request body
-  
-  // Routes
-  app.use('/api/auth', authRoutes); // Use the authentication routes
-  app.use('/api/user', userRoutes); // Use the user-related routes
-  app.use('/api/trains', trainRoutes);
-  app.use('/api/seatmaps', seatMapRoutes);
-  app.use('/api/booking', bookingRoutes);
-  app.use('/api/fares', fareRoutes);
-  app.use('/api/stations', stationRoutes);
-  app.use('/api/payment', paymentRoutes);
+// ✅ Allow only your deployed frontend to access the backend
+app.use(cors({
+  origin: [
+    "https://train-ticket-booking-frontend.vercel.app", // 🔹 change this to your actual Vercel frontend URL
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 
+app.use(express.json());
 
-// Test Route to Check if Server is Running
+// ✅ Routes
+app.use('/api/auth', authRoutes);
+app.use('/api/user', userRoutes);
+app.use('/api/trains', trainRoutes);
+app.use('/api/seatmaps', seatMapRoutes);
+app.use('/api/booking', bookingRoutes);
+app.use('/api/fares', fareRoutes);
+app.use('/api/stations', stationRoutes);
+app.use('/api/payment', paymentRoutes);
+
+// ✅ Test Route
 app.get('/', (req, res) => res.send('API is running'));
-console.log("Registering /debug-db route");
 
+// ✅ Debug Route
 app.get('/debug-db', async (req, res) => {
   try {
     const admin = new mongoose.mongo.Admin(mongoose.connection.db);
@@ -53,9 +56,6 @@ app.get('/debug-db', async (req, res) => {
   }
 });
 
-
-
-
-// Port to Run the Server
+// ✅ Start Server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
