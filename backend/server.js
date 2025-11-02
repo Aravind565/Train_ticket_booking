@@ -27,14 +27,11 @@ app.use(cors({
     "https://trainticketbooking-tau.vercel.app",
     "https://trainticketbooking-git-main-aravind-as-projects-a3ae63c0.vercel.app",
   ],
-   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization", "Accept"],
+   methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
-  exposedHeaders: ["Authorization"] // Add this line
 }));
 
-// Handle preflight requests
-app.options('*', cors());
 
 app.use(express.json());
 
