@@ -31,7 +31,7 @@ const Login = () => {
 
   setLoading(true);
   try{
-  const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/auth/login`, { email, password });
+  const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/auth/login`, { email, password });
 
 
     if (response.data.token) {
