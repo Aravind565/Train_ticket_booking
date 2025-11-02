@@ -30,15 +30,13 @@ const Login = () => {
   }
 
   setLoading(true);
-  try{
-    console.log("Sending request...");
-const response = await axios.post(
-  "https://trainticket-backend.onrender.com/api/auth/login",
-  JSON.stringify({ email, password }),
-  {
-    headers: { "Content-Type": "application/json" },
-  }
-);
+try {
+  console.log("Login data sending:", { email, password });
+  const response = await axios.post(
+    "https://trainticket-backend.onrender.com/api/auth/login",
+    { email, password },
+    { headers: { "Content-Type": "application/json" } }
+  );
 
  console.log("Response received:", response.data);
     if (response.data.token) {
