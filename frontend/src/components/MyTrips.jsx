@@ -274,7 +274,7 @@ data.forEach(trip => {
           <h3 className="mt-4 text-lg font-medium text-gray-900">No trips booked yet</h3>
           <p className="mt-2 text-gray-500">When you book a trip, it will appear here.</p>
           <button 
-            onClick={() => window.location.href = "/search"}
+            onClick={() => window.location.href = "/book"}
             className="mt-4 px-4 py-2 bg-[#000080] text-white rounded-md hover:bg-[#001f4d] transition"
           >
             Book Your First Trip

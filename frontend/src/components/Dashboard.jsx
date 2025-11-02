@@ -276,11 +276,12 @@ const Dashboard = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="relative mx-auto">
-            <div className="w-20 h-20 border-4 border-[#000080]/20 rounded-full animate-spin"></div>
-            <div className="absolute top-0 left-0 w-20 h-20 border-4 border-transparent border-t-[#000080] rounded-full animate-spin"></div>
-          </div>
+        <div className="flex justify-center">
+  <div className="relative w-20 h-20">
+    <div className="absolute inset-0 w-20 h-20 border-4 border-[#000080]/20 rounded-full"></div>
+    <div className="absolute inset-0 w-20 h-20 border-4 border-transparent border-t-[#000080] rounded-full animate-spin"></div>
+  </div>
+
           <p className="mt-6 text-gray-600 font-medium">Loading your dashboard...</p>
         </div>
       </div>
