@@ -23,35 +23,17 @@ connectDB();
 
 // ✅ Allow only your deployed frontend to access the backend
 app.use(cors({
-  origin: function(origin, callback) {
-    const allowedOrigins = [
-      "https://trainticketbooking-tau.vercel.app",
-      "https://trainticketbooking-git-main-aravind-as-projects-a3ae63c0.vercel.app"
-    ];
-    
-    // Allow requests with no origin (Postman, mobile apps)
-    if (!origin) return callback(null, true);
-    
-    if (allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      console.log("❌ Blocked origin:", origin);
-      callback(null, false);
-    }
-  },
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  origin: [
+    "https://trainticketbooking-tau.vercel.app",
+    "https://trainticketbooking-git-main-aravind-as-projects-a3ae63c0.vercel.app",
+  ],
+   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
 }));
 
-app.options('*', cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
-app.use((req, res, next) => {
-  console.log(`${req.method} ${req.path} - Origin: ${req.headers.origin}`);
-  next();
-});
+app.use(express.json());
 
 // ✅ Routes
 app.use('/api/auth', authRoutes);
