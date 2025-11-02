@@ -21,7 +21,7 @@ const app = express();
 // ✅ Connect to MongoDB
 connectDB();
 
-// ✅ CORS Configuration - MUST be before routes
+// ✅ Allow only your deployed frontend to access the backend
 app.use(cors({
   origin: function(origin, callback) {
     const allowedOrigins = [
@@ -44,13 +44,10 @@ app.use(cors({
   credentials: true,
 }));
 
-// ✅ Handle preflight requests - MUST be before routes
 app.options('*', cors());
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ✅ Add logging middleware to see incoming requests
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.path} - Origin: ${req.headers.origin}`);
   next();
@@ -80,17 +77,6 @@ app.get('/debug-db', async (req, res) => {
   }
 });
 
-// ✅ 404 handler
-app.use((req, res) => {
-  res.status(404).json({ message: 'Route not found' });
-});
-
-// ✅ Error handler
-app.use((err, req, res, next) => {
-  console.error('Error:', err);
-  res.status(500).json({ message: err.message || 'Internal server error' });
-});
-
 // ✅ Start Server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`)); // ✅ FIXED THIS LINE
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
