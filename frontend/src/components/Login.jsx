@@ -19,36 +19,36 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const handleLogin = async (e) => {
+ const handleLogin = async (e) => {
   e.preventDefault();
   setError("");
   setSuccess("");
-
   if (!email || !password) {
     setError("Please fill in both fields.");
     return;
   }
-
   setLoading(true);
-try {
-  console.log("Login data sending:", { email, password });
-  const response = await axios.post(
-    "https://trainticket-backend.onrender.com/api/auth/login",
-    { email, password },
-    { headers: { "Content-Type": "application/json" } }
-  );
 
- console.log("Response received:", response.data);
+  try {
+    console.log("Login data sending:", { email, password });
+    const response = await axios.post(
+      "https://trainticket-backend.onrender.com/api/auth/login",
+      { email, password },
+      { 
+        headers: { "Content-Type": "application/json" },
+        withCredentials: true  // ✅ ADD THIS
+      }
+    );
+
+    console.log("Response received:", response.data);
     if (response.data.token) {
       sessionStorage.setItem("userToken", response.data.token);
-
-      // Save user info as JSON string
-// ✅ CHANGE THIS LINE:
       sessionStorage.setItem("userData", JSON.stringify(response.data.user));
       setSuccess("Login successful! Redirecting...");
       setTimeout(() => navigate("/dashboard"), 1200);
     }
   } catch (error) {
+    console.log("Error details:", error.response); // ✅ ADD THIS for debugging
     setError(error.response?.data?.message || "Login failed. Please try again.");
   } finally {
     setLoading(false);
