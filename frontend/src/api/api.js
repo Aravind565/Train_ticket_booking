@@ -1,10 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: `${import.meta.env.VITE_API_BASE_URL}/api`, // ✅ includes /api
+  baseURL: import.meta.env.VITE_API_BASE_URL, // ✅ uses environment variable
 });
 
-// Fetch seat availability for 5 days from the given date
 export const fetchSeatAvailability = async (trainNumber, date) => {
   try {
     const response = await api.get(`/seatmaps/availability`, {
@@ -18,3 +17,4 @@ export const fetchSeatAvailability = async (trainNumber, date) => {
 };
 
 export default api;
+
