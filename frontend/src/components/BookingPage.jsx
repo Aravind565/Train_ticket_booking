@@ -75,9 +75,9 @@
     setIsLoading(true);
     try {
       // Fetch train details
-    const trainRes = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/trains/${trainId}`);
+      const trainRes = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/trains/${trainId}`);
       if (!trainRes.data) throw new Error('No train data received');
-      
+
       const dayMap = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
       const trainData = trainRes.data;
       const numericRunningDays = (trainData.runningDays || []).map(day => dayMap[day]);
@@ -85,23 +85,18 @@
       setTrainDetails({ ...trainData, numericRunningDays });
 
       // Fetch booking info
- const bookingInfoRes = await axios.get(
-  `${import.meta.env.VITE_API_BASE_URL}/api/booking/train/${trainId}/booking-info`,
-  {
-    params: {
-      from,
-      to,
-      classType,
-      date,
-    },
-  }
-);
+      const bookingInfoRes = await axios.get(
+        `${import.meta.env.VITE_API_BASE_URL}/api/booking/train/${trainId}/booking-info`,
+        {
+          params: { from, to, classType, date },
+        }
+      );
 
-      if (!bookingRes.data) throw new Error('No booking data received');
-      setBookingInfo(bookingRes.data);
+      if (!bookingInfoRes.data) throw new Error('No booking data received');
+      setBookingInfo(bookingInfoRes.data);
+
     } catch (err) {
       console.error('Failed to load train or booking info:', err);
-      // Set state to show error to user
       setTrainDetails(null);
       setBookingInfo(null);
     } finally {
@@ -109,11 +104,11 @@
     }
   };
 
-      if (trainId && from && to && classType && date) {
-      console.log('Fetching train and booking info...');
-      fetchTrainAndBookingInfo();
-    }
-  }, [trainId, from, to, classType, date]);
+  if (trainId && from && to && classType && date) {
+    console.log('Fetching train and booking info...');
+    fetchTrainAndBookingInfo();
+  }
+}, [trainId, from, to, classType, date]);
 
     // Get station details and timing info from the train data
     const getStationDetails = () => {
