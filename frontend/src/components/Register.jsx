@@ -88,34 +88,47 @@ const Register = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setGeneralError("");
-    setSuccess("");
+  e.preventDefault();
+  setGeneralError("");
+  setSuccess("");
 
-    if (!validateForm()) {
-      setGeneralError("Please fix the errors in the form");
-      return;
-    }
+  if (!validateForm()) {
+    setGeneralError("Please fix the errors in the form");
+    return;
+  }
 
-    setLoading(true);
-    try {
- const response = await axios.post(
-  `${import.meta.env.VITE_API_BASE_URL}/api/auth/register`,
-  formData
-);
+  setLoading(true);
 
+  try {
+    console.log("Register data sending:", formData);
+
+    const response = await fetch("https://trainticket-backend.onrender.com/api/auth/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    console.log("Response status:", response.status);
+
+    if (response.ok) {
+      const data = await response.json();
+      console.log("Registration successful:", data);
       setSuccess("Registration successful! Redirecting to login...");
       setTimeout(() => navigate("/login"), 1500);
-    } catch (error) {
-      setGeneralError(
-        error.response?.data?.message || 
-        error.response?.data?.error || 
-        "Registration failed. Please try again."
-      );
-    } finally {
-      setLoading(false);
+    } else {
+      const errorData = await response.json();
+      console.log("Registration failed:", errorData);
+      setGeneralError(errorData.message || "Registration failed. Please try again.");
     }
-  };
+  } catch (error) {
+    console.log("Fetch error:", error);
+    setGeneralError("Network error: " + error.message);
+  } finally {
+    setLoading(false);
+  }
+};
 
   // ... (keep all your existing handler functions)
 
