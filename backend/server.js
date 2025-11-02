@@ -21,20 +21,40 @@ const app = express();
 // ✅ Connect to MongoDB
 connectDB();
 
-// ✅ Allow only your deployed frontend to access the backend
+// ✅ CORS Configuration - MUST be before routes
 app.use(cors({
-  origin: [
-    "https://trainticketbooking-tau.vercel.app",
-    "https://trainticketbooking-git-main-aravind-as-projects-a3ae63c0.vercel.app",
-  ],
-   methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: function(origin, callback) {
+    const allowedOrigins = [
+      "https://trainticketbooking-tau.vercel.app",
+      "https://trainticketbooking-git-main-aravind-as-projects-a3ae63c0.vercel.app"
+    ];
+    
+    // Allow requests with no origin (Postman, mobile apps)
+    if (!origin) return callback(null, true);
+    
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      console.log("❌ Blocked origin:", origin);
+      callback(null, false);
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
 }));
 
+// ✅ Handle preflight requests - MUST be before routes
+app.options('*', cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// ✅ Add logging middleware to see incoming requests
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.path} - Origin: ${req.headers.origin}`);
+  next();
+});
 
 // ✅ Routes
 app.use('/api/auth', authRoutes);
@@ -58,6 +78,17 @@ app.get('/debug-db', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
+});
+
+// ✅ 404 handler
+app.use((req, res) => {
+  res.status(404).json({ message: 'Route not found' });
+});
+
+// ✅ Error handler
+app.use((err, req, res, next) => {
+  console.error('Error:', err);
+  res.status(500).json({ message: err.message || 'Internal server error' });
 });
 
 // ✅ Start Server
