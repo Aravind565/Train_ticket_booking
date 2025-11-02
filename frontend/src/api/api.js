@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
- baseURL: import.meta.env.VITE_API_BASE_URL, // ✅ correct
+  baseURL: `${import.meta.env.VITE_API_BASE_URL}/api`, // ✅ includes /api
 });
 
 // Fetch seat availability for 5 days from the given date
