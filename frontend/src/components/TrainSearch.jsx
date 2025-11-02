@@ -37,11 +37,12 @@ export default function TrainSearch() {
 
   useEffect(() => {
     const fetchData = async () => {
-      try {
-        setIsLoading(true);
-        const res = await axios.get("http://localhost:5000/api/stations");
-        setStations(res.data || []);
-      } catch {
+     try {
+  setIsLoading(true);
+  const res = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/stations`);
+  setStations(res.data || []);
+}
+ catch {
         setErrorMessage("Failed to load station data. Please try again later.");
       } finally {
         setIsLoading(false);

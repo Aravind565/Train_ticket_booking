@@ -75,7 +75,7 @@
     setIsLoading(true);
     try {
       // Fetch train details
-      const trainRes = await axios.get(`http://localhost:5000/api/trains/${trainId}`);
+    const trainRes = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/api/trains/${trainId}`);
       if (!trainRes.data) throw new Error('No train data received');
       
       const dayMap = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
@@ -85,11 +85,18 @@
       setTrainDetails({ ...trainData, numericRunningDays });
 
       // Fetch booking info
-      const bookingRes = await axios.get(
-        `http://localhost:5000/api/booking/train/${trainId}/booking-info`,
-        { params: { from, to, classType, date } }
-      );
-      
+ const bookingInfoRes = await axios.get(
+  `${import.meta.env.VITE_API_BASE_URL}/api/booking/train/${trainId}/booking-info`,
+  {
+    params: {
+      from,
+      to,
+      classType,
+      date,
+    },
+  }
+);
+
       if (!bookingRes.data) throw new Error('No booking data received');
       setBookingInfo(bookingRes.data);
     } catch (err) {

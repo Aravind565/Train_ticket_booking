@@ -37,10 +37,11 @@ const PaymentGateway = () => {
       setError(null);
 
       // Step 1: Create Order
-      const { data: { order } } = await axios.post(
-        'http://localhost:5000/api/payment/create-order',
-        { amount: bookingData.totalFare }
-      );
+     const { data: { order } } = await axios.post(
+  `${import.meta.env.VITE_API_BASE_URL}/api/payment/create-order`,
+  { amount: bookingData.totalFare }
+);
+
 
       // Step 2: Open Razorpay Checkout
       const options = {
@@ -51,12 +52,13 @@ const PaymentGateway = () => {
         name: 'Indian Railways',
         description: `Booking for ${bookingData.trainName} (${bookingData.trainNumber})`,
         handler: async (response) => {
-          try {
-            console.log("Sending bookingData to backend:", bookingData);  
-            const { data } = await axios.post(
-              'http://localhost:5000/api/payment/verify-payment',
-              { ...response, bookingData }
-            );
+        try {
+  console.log("Sending bookingData to backend:", bookingData);
+  const { data } = await axios.post(
+    `${import.meta.env.VITE_API_BASE_URL}/api/payment/verify-payment`,
+    { ...response, bookingData }
+  );
+
 
             if (data.success || data.message === "Payment verified and booking saved") {
               navigate('/booking-success', {

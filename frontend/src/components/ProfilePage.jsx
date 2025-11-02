@@ -22,11 +22,11 @@ const ProfilePage = () => {
   const fetchProfile = async () => {
     const token = sessionStorage.getItem("userToken");
     if (!token) { setLoading(false); return; }
-    try {
-      // NOTE: Using localhost:5000 - ensure your backend is running here
-      const res = await fetch("http://localhost:5000/api/user/profile", {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+   try {
+  const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/user/profile`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+
       if (!res.ok) throw new Error("Failed to fetch profile");
       const data = await res.json();
       setUser(data);
@@ -62,14 +62,16 @@ const ProfilePage = () => {
   // Updated to handle saving from child component's local state
   const handleSave = async (updatedFormData) => {
     try {
-      const token = sessionStorage.getItem("userToken");
-      const res = await fetch("http://localhost:5000/api/user/profile", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
-        // Only send the fields that are currently being edited, or send all formData
-        // For simplicity and to ensure all profile updates are captured, we send all formData
-        body: JSON.stringify(updatedFormData || formData),
-      });
+  const token = sessionStorage.getItem("userToken");
+  const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/user/profile`, {
+    method: "PUT",
+    headers: { 
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}` 
+    },
+    body: JSON.stringify(updatedFormData || formData),
+  });
+
       if (!res.ok) throw new Error("Failed to update profile");
       const data = await res.json();
       setUser(data); 

@@ -39,9 +39,12 @@ const MyTrips = () => {
       const token = sessionStorage.getItem("userToken");
       if (!token) return setError("Please login first.");
 
-      const res = await fetch("http://localhost:5000/api/booking/user", {
-        headers: { Authorization: `Bearer ${token}` },
-      });
+   const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/booking/user`, {
+  headers: {
+    Authorization: `Bearer ${token}`,
+  },
+});
+
 
       if (!res.ok) {
         const errData = await res.json();
@@ -108,11 +111,14 @@ data.forEach(trip => {
   const handleCancelTrip = async (bookingId) => {
     setCancelling(true);
     try {
-      const token = sessionStorage.getItem("userToken");
-      const res = await fetch(`http://localhost:5000/api/booking/${bookingId}`, {
-        method: "DELETE",
-        headers: { Authorization: `Bearer ${token}` },
-      });
+  const token = sessionStorage.getItem("userToken");
+  const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/booking/${bookingId}`, {
+    method: "DELETE",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+
 
       if (!res.ok) throw new Error("Failed to cancel booking");
       

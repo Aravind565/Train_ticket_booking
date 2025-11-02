@@ -241,13 +241,14 @@ const Dashboard = () => {
         setLoading(true);
         setError(null);
         
-        const response = await fetch("http://localhost:5000/api/user", {
-          method: "GET",
-          headers: { 
-            "Authorization": `Bearer ${token}`,
-            "Content-Type": "application/json"
-          }
-        });
+       const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/user`, {
+  method: "GET",
+  headers: { 
+    "Authorization": `Bearer ${token}`,
+    "Content-Type": "application/json"
+  }
+});
+
 
         if (!response.ok) {
           if (response.status === 401) {

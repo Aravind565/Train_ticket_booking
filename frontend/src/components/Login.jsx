@@ -30,8 +30,9 @@ const Login = () => {
   }
 
   setLoading(true);
-  try {
-    const response = await api.post("/auth/login", { email, password });
+  try{
+  const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/auth/login`, { email, password });
+
 
     if (response.data.token) {
       sessionStorage.setItem("userToken", response.data.token);
