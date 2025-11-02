@@ -24,8 +24,8 @@ connectDB();
 // ✅ Allow only your deployed frontend to access the backend
 app.use(cors({
   origin: [
+    "https://trainticketbooking-tau.vercel.app",
     "https://trainticketbooking-git-main-aravind-as-projects-a3ae63c0.vercel.app",
-    "https://trainticketbooking-cnnbe8n5o-aravind-as-projects-a3ae63c0.vercel.app"
   ],
   methods: ["GET", "POST"],
   credentials: true,
