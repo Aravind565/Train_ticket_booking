@@ -29,30 +29,32 @@ const Login = () => {
   }
   setLoading(true);
 
-  try {
-    console.log("Login data sending:", { email, password });
-    const response = await axios.post(
-      "https://trainticket-backend.onrender.com/api/auth/login",
-      { email, password },
-      { 
-        headers: { "Content-Type": "application/json" },
-        withCredentials: true  // ✅ ADD THIS
-      }
-    );
+ try {
+  console.log("Login data sending:", { email, password });
+  
+  const response = await fetch("https://trainticket-backend.onrender.com/api/auth/login", {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ email, password })
+  });
 
-    console.log("Response received:", response.data);
-    if (response.data.token) {
-      sessionStorage.setItem("userToken", response.data.token);
-      sessionStorage.setItem("userData", JSON.stringify(response.data.user));
-      setSuccess("Login successful! Redirecting...");
-      setTimeout(() => navigate("/dashboard"), 1200);
-    }
-  } catch (error) {
-    console.log("Error details:", error.response); // ✅ ADD THIS for debugging
-    setError(error.response?.data?.message || "Login failed. Please try again.");
-  } finally {
-    setLoading(false);
+  console.log("Response status:", response.status);
+  
+  if (response.ok) {
+    const data = await response.json();
+    console.log("Login successful:", data);
+    // Handle success...
+  } else {
+    const errorData = await response.json();
+    console.log("Login failed:", errorData);
+    setError(errorData.message || "Login failed");
   }
+} catch (error) {
+  console.log("Fetch error:", error);
+  setError("Network error: " + error.message);
+}
 };
 
   return (
