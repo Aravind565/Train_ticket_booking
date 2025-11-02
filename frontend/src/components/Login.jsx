@@ -31,9 +31,13 @@ const Login = () => {
 
   setLoading(true);
   try{
-  const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/auth/login`, { email, password });
+    console.log("Sending request...");
+const response = await axios.post(
+  "https://trainticket-backend.onrender.com/api/auth/login",
+  { email, password }
+);
 
-
+ console.log("Response received:", response.data);
     if (response.data.token) {
       sessionStorage.setItem("userToken", response.data.token);
 
