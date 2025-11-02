@@ -99,7 +99,11 @@ const Register = () => {
 
     setLoading(true);
     try {
-      const response = await api.post("/auth/register", formData);
+ const response = await axios.post(
+  `${import.meta.env.VITE_API_BASE_URL}/api/auth/register`,
+  formData
+);
+
       setSuccess("Registration successful! Redirecting to login...");
       setTimeout(() => navigate("/login"), 1500);
     } catch (error) {
