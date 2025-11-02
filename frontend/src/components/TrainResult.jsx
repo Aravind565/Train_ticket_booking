@@ -128,45 +128,52 @@ const getNextFiveDates = (startDate) => {
 };
 
 const fetchAvailability = async (trainNumber, selectedDate) => {
-  const dates = getNextFiveDates(selectedDate).map(date => date.toISOString().split('T')[0]);
- try {
-  const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/seatmaps/availability/bulk`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ trainNumber, dates }),
-  });
+  const dates = getNextFiveDates(selectedDate).map(date =>
+    date.toISOString().split('T')[0]
+  );
+
+  try {
+    const response = await fetch(
+      `${import.meta.env.VITE_API_BASE_URL}/api/seatmaps/availability/bulk`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ trainNumber: Number(trainNumber), dates }),
+      }
+    );
+
+    if (!response.ok) {
+      console.error("Failed to fetch seat availability:", response.status);
+      return {};
+    }
 
     const rawData = await response.json();
 
-    const rawDataByDate = {};
-    rawData.forEach(item => {
-      rawDataByDate[item.date] = item;
-    });
+    console.log("Fetched seat availability:", rawData);
 
+    // Transform API response into the format your component expects
     const result = {};
-
-    for (const date of dates) {
-      const availabilityData = rawDataByDate[date];
-      if (!availabilityData || !availabilityData.coaches) continue;
-
+    rawData.forEach(item => {
+      const date = item.date;
       const classWiseCount = {};
 
-      for (const coach of availabilityData.coaches) {
-        const { classType, availableSeats } = coach;
-
-        if (!classWiseCount[classType]) classWiseCount[classType] = 0;
-        classWiseCount[classType] += availableSeats;
+      for (const classType in item.availability) {
+        const info = item.availability[classType];
+        classWiseCount[classType] = info.available;
       }
 
       result[date] = classWiseCount;
-    }
+    });
 
+    console.log("Transformed seat availability:", result);
     return result;
+
   } catch (error) {
-    console.error('Error fetching seat availability:', error);
+    console.error("Error fetching seat availability:", error);
     return {};
   }
 };
+
 
 const getConfirmationChance = (count) => {
   if (count > 0) return null;
