@@ -113,7 +113,6 @@ const ProfilePage = () => {
     { id: "profile", label: "Profile", icon: FiUser, color: "bg-blue-500" },
     { id: "security", label: "Security", icon: FiLock, color: "bg-green-500" }, // Changed icon to FiLock
     { id: "wallet", label: "Wallet", icon: FiCreditCard, color: "bg-purple-500" }, // Changed icon to FiCreditCard
-    { id: "trips", label: "Trips", icon: FiMapPin, color: "bg-orange-500" }, // Changed icon to FiMapPin
     { id: "travellers", label: "Travellers", icon: FiUsers, color: "bg-teal-500" },
     { id: "notifications", label: "Notifications", icon: FiBell, color: "bg-red-500" }
   ];

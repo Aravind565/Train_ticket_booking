@@ -298,12 +298,12 @@ const calculateJourneyDetails = () => {
     setErrors(newErrors);
     return valid;
   };
-  const user = JSON.parse(sessionStorage.getItem('user'));
+  const user = JSON.parse(sessionStorage.getItem('userData'));
    const handleNext = (e) => {
   e.preventDefault();
 
   // 1️⃣ Check if user is logged in
-  const user = JSON.parse(sessionStorage.getItem('user'));
+  const user = JSON.parse(sessionStorage.getItem('userData'));
   if (!user) {
     alert('Please log in to proceed with booking');
     return;
