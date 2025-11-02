@@ -19,43 +19,55 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
- const handleLogin = async (e) => {
+const handleLogin = async (e) => {
   e.preventDefault();
   setError("");
   setSuccess("");
+
   if (!email || !password) {
     setError("Please fill in both fields.");
     return;
   }
+
   setLoading(true);
 
- try {
-  console.log("Login data sending:", { email, password });
-  
-  const response = await fetch("https://trainticket-backend.onrender.com/api/auth/login", {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ email, password })
-  });
+  try {
+    console.log("Login data sending:", { email, password });
 
-  console.log("Response status:", response.status);
-  
-  if (response.ok) {
-    const data = await response.json();
-    console.log("Login successful:", data);
-    // Handle success...
-  } else {
-    const errorData = await response.json();
-    console.log("Login failed:", errorData);
-    setError(errorData.message || "Login failed");
+    const response = await fetch("https://trainticket-backend.onrender.com/api/auth/login", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email, password }),
+    });
+
+    console.log("Response status:", response.status);
+
+    if (response.ok) {
+      const data = await response.json();
+      console.log("Login successful:", data);
+
+      // ✅ Store token & user info
+      sessionStorage.setItem("userToken", data.token);
+      sessionStorage.setItem("userData", JSON.stringify(data.user));
+
+      // ✅ Show success message and navigate
+      setSuccess("Login successful! Redirecting...");
+      setTimeout(() => navigate("/dashboard"), 1000);
+    } else {
+      const errorData = await response.json();
+      console.log("Login failed:", errorData);
+      setError(errorData.message || "Login failed. Please try again.");
+    }
+  } catch (error) {
+    console.log("Fetch error:", error);
+    setError("Network error: " + error.message);
+  } finally {
+    setLoading(false);
   }
-} catch (error) {
-  console.log("Fetch error:", error);
-  setError("Network error: " + error.message);
-}
 };
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
